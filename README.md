@@ -29,6 +29,9 @@ Good awesome summary [here](https://github.com/lizaijing/Awesome-Minecraft-Agent
   - Works best for my scenario with AutoClef client minecraft agent, but I still don't know if it's random or prompt-following... It ignores instructions but looks like understands the game
 - Jarvis VLA
   - other [CraftJarvis](https://craftjarvis.github.io/projects/) projects
+- Nvidia [NitroGEN](https://huggingface.co/nvidia/NitroGen)
+
+  TODO глянуть, выглядит быстрой лёгкой и интересной! 
 - DreamerV3
   - Will hard to implement, fully autonomous pipeline without direct goal conditioning, TODO test with client minecraft but looks unrealistic for now
 - Game TARS (wait for releasing their [weights](https://huggingface.co/ByteDance-Seed/collections)!), [should](https://gemini.google.com/share/37ef0a61c389) be good VLA instead of their computer-use slow agentic VLM
