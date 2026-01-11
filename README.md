@@ -80,6 +80,8 @@ Main famous - [LMsys leaderboard](https://lmarena.ai/leaderboard)
 
 [AA Leaderboard](https://huggingface.co/spaces/ArtificialAnalysis/LLM-Performance-Leaderboard)
 
+Нашёл [такой](https://llm-stats.com/) ещё лб пока не смотрел но там вроде есть что-то по бенчам 
+
 ## OpenSource Embeddings
 
 [outdated]
