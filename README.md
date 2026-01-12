@@ -23,15 +23,24 @@ Actual: 06.2025 (or maybe older) + little 05.01.2026 additions
 
 (VLA or fast pipelines)
 
-Good awesome summary [here](https://github.com/lizaijing/Awesome-Minecraft-Agent)
+Good awesome summary [here](https://github.com/lizaijing/Awesome-Minecraft-Agent) (OUTDATE = last updated 15.08.2025)
 
-- Optimus 3
+- [CraftJarvis](https://craftjarvis.github.io/projects/)
+  - 11.12.2025 глянуть [OpenHA](https://github.com/CraftJarvis/OpenHA), тоже есть VLA, но медленные мб
+    - TODO глянуть веса ЕСТЬ и код самое последнее вроде что у них есть
+  - 31.07.2025 ROCKET-3 ждём веса ПОЛГОДА уже
+  - 05.03.2025 2025 Jarvis VLA вышел, пока помойка (медленная и тупая), либо неправильно сделал ввод картинок через AutoClef
+
+- 11.06.2025 [Optimus 3](https://github.com/JiuTian-VL/Optimus-3) и мой [форк](https://github.com/3ndetz/Optimus-3)
   - Works best for my scenario with AutoClef client minecraft agent, but I still don't know if it's random or prompt-following... It ignores instructions but looks like understands the game
-- Jarvis VLA
-  - other [CraftJarvis](https://craftjarvis.github.io/projects/) projects
+
+- [2025 MrSteve](https://github.com/frechele/MrSteve?tab=readme-ov-file)
+
+  TODO глянуть, но как будто бы используются базовые веса mineclip и steve1 VPT и особо нет связи с LLM
 - Nvidia [NitroGEN](https://huggingface.co/nvidia/NitroGen)
 
-  TODO глянуть, выглядит быстрой лёгкой и интересной! 
+  TODO глянуть, выглядит быстрой лёгкой и интересной!
+  UPD: посмотрел, не впечатлил, слабый VLA, никакого коннекта с LLM, косячная либа, но универсален для многих игр и есть веса + маленький крутится на 4G VRAM. Можно адаптировать например под флеш-игры.
 - DreamerV3
   - Will hard to implement, fully autonomous pipeline without direct goal conditioning, TODO test with client minecraft but looks unrealistic for now
 - Game TARS (wait for releasing their [weights](https://huggingface.co/ByteDance-Seed/collections)!), [should](https://gemini.google.com/share/37ef0a61c389) be good VLA instead of their computer-use slow agentic VLM
